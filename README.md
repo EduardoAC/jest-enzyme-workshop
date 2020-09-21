@@ -27,19 +27,14 @@ You have to have setup locally `node > 12.x.x` and `yarn`, if you don't have it 
 
 This workshop wil be oriented to build your basic skill set to write tests for our current setup on `customer-tech` repositories, we won't cover best practises like TDD. However, there are few resources to at the end of this document if you are interested to learn more.
 
-We will focus on the following points:
-- Make our tests easy to maintain
-- Improve readiblity for tests
-- Learn how to use Jest for simple unit tests
-- Using enzyme for testing React components
-  - jest-date-mock for date testing
-  - jest.fn() to deal with promises and function calls
-  - snapshot testing (when and how to use it effectively)
-- Common libraries/features used in our projects
-  - React Hooks testing
-  - Styled-components
-  - Redux
+We will focus on the following testing aspects:
+- Basic usage of jest for unit testing logic
+- Testing a React Component using Jest + Enzyme
+  - Using React Classes
+  - Using React hooks
+  - Managing current Dates using `jest-date-mocks` component changes
 
+Additiomally we will look for find trade off and way to imprve readiblity when we are writing our tests
 
 ## Resources
 
@@ -53,4 +48,3 @@ We will focus on the following points:
 - Video workshop using TDD: https://www.youtube.com/watch?v=tX-gu6FWcsE
 - Comprehensive login component testing with Hooks: https://medium.com/@acesmndr/testing-react-functional-components-with-hooks-using-enzyme-f732124d320a
 - Testing custom React Hooks: https://kentcdodds.com/blog/how-to-test-custom-react-hooks
-
