@@ -5,7 +5,10 @@ import { Clock } from './Clock'
 
 describe('<clock />', () => {
   /**
-   * What test cases you recommended for this clock component?
+   * 
+   * What is the problem with this test? 
+   * What other test we can include?
+   * 
    */
   it('renders', () => {
     const wrapper = shallow(<Clock />)
