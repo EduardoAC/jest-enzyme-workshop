@@ -1,0 +1,6 @@
+[
+  { "id": 1, "completed": true, "text": "item 1" },
+  { "id": 2, "completed": false, "text": "item 2" },
+  { "id": 3, "completed": false, "text": "item 3" },
+  { "id": 4, "completed": false, "text": "item 4" }
+]
