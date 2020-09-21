@@ -1,7 +1,7 @@
 import React from 'react'
 import { shallow } from 'enzyme'
 
-describe('<MyComponent />', () => {
+describe('<Headline />', () => {
   it('', () => {})
   /**
    * What test cases do you consider neccesary for this component?
