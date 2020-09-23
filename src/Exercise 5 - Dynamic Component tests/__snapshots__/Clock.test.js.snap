@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<clock /> should display the right time 1`] = `
+<p>
+  18:33:52
+</p>
+`;

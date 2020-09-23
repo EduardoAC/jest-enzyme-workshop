@@ -1,11 +1,8 @@
 import React from 'react'
 import { shallow } from 'enzyme'
+import { Headline } from './Headline'
 
 describe('<Headline />', () => {
-  it('', () => {})
-  /**
-   * What test cases do you consider neccesary for this component?
-   * 
-   * - Hint: What happens when we render the component? Is there anything that changes?
-   */
+  it('should render an h1 element', () => {})
+  it('should contain "hello world"', () => {})
 })

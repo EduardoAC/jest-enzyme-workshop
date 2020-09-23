@@ -1,11 +1,9 @@
 import React from 'react'
 import { shallow } from 'enzyme'
+import mockTodoList from './mockTodoList.json'
 
 describe('<ToDoList />', () => {
-  it('', () => {})
-  /**
-   * What test cases do you consider neccesary for this component?
-   * 
-   * - Hint: What happens when we render the component? Is there anything that changes?
-   */
+  it('display a list of TODO items passed', () => {})
+  it('remove the item when we click on delete', ()=> {})
+  it('Strikethrough the TODO item when we click on the label', ()=> {})
 })

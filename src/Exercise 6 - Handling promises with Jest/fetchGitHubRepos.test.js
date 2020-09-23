@@ -9,6 +9,6 @@ global.fetch = jest.fn(() =>
 describe("fetchGitHubRepos - func", () => {
   it("mock fetch request", async () => {
     const repos = await fetchGitHubRepos();
-    expect(repos).toEqual(["test"]);
+    // How will you test that the content of the repos variable if the promise always return "test"
   });
 });

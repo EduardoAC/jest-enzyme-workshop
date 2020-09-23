@@ -6,12 +6,13 @@ import { Clock } from './Clock'
 describe('<clock />', () => {
   /**
    * 
-   * What is the problem with this test? 
-   * What other test we can include?
+   * For this exercise you will have to use jest-date-mock
+   * It's already in the project so follow the usage instructions
+   * https://github.com/hustcc/jest-date-mock#readme
    * 
    */
-  it('renders', () => {
+  it('should display the right time', () => {
     const wrapper = shallow(<Clock />)
-    //expect(wrapper).toMatchSnapshot()
+    expect(wrapper).toMatchSnapshot()
   })
 })

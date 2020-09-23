@@ -1,8 +1,8 @@
+import { findTodoItem } from './findTodoItem'
+import mockItemList from './mockTodoList.json'
+
 describe('findTodoItem - func', () => {
-  /**
-   * What test cases do you consider neccessary for this function?
-   * 
-   * - hint: What happens when y === 0? What about x?
-   */
-  it('', () => {})
+  it('should throw an error if the todo list is not an array', () => {})
+  it('return the item if the id is present on the list', () => {})
+  it('return undefined if the id is not present on the list', () => {})
 })
